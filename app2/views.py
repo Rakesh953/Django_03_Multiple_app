@@ -3,6 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 def fun3(request):
-    return render(request,)
+    return render(request,'app2.html')
 def fun4(request):
     return HttpResponse('<h1>This is the fun app 2 http Response content<h1>')
